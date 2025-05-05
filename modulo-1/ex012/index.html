@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado localmente no meu servidor.</p>
+    <video controls width="560">
+        <!-- Tipos de videos para site: MP4, M4V, WEBM e OGV -->
+        <!-- Usar todos os tipos pq nem todo navegador aceitam os mesmo tipos de vídeo -->
+         <!-- Usar o HandBrake para conversão de vídeo -->
+        <source src="midia/video.mp4" type="video/mp4">
+        <p>Seu navegador não tem navegador com compatibilidade com reprodutor de vídeos.</p>
+    </video>
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/CtO_XE2Nrho?si=12aRwVbNW4PtRtb1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
